@@ -46,7 +46,7 @@
               <p>
                 <%# This will not work because of turbo / rails 7%>
 								<%#= link_to "Logout", destroy_user_session_path, method: :delete, class:"button is-info" %>
-								<%= link_to "Logout", destroy_user_session_path, data: { turbo_method: :delete, }, class:"button is-info" %>
+								<%= button_to "Logout", destroy_user_session_path, method: :delete, class:"button is-info", 'data-turbo': false %>
               </p>
             <% else %>
             <p class="control">
