@@ -19,3 +19,6 @@ or<br>
 ```data: { turbo: false }```<br>
 
 [Stackoverflow source](https://stackoverflow.com/questions/66615478/turbo-rails-with-devise-does-not-redirect-consistently-rails-6-1-3-devise-4-7-3)
+
+*April 15, 2022 (later that day): *<br>
+The above fix cause making new users not work... ugh
