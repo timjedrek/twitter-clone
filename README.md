@@ -10,6 +10,6 @@ This was build using Rails 7 and the devise gem for authentication.  Trying [thi
 The above fix cause making new users not work.
 
 *April 16, 2022:*<br>
-Trying out [this](https://betterprogramming.pub/devise-auth-setup-in-rails-7-44240aaed4be) again which was a previous branch but later removed
+Reset button!
 
 
